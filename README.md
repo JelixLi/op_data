@@ -1,5 +1,5 @@
 # Data Format
-Cpu Nums, MPS, Batch Size, Host/device, Type, Avg. time (us), Shape
+Cpu Nums, MPS, Batch Size, Host/device, Type, Avg. time (us), Input Shape, Attrs
 # Data Field Explanation
 Cpu Nums: number of cpu cores(with hyper threading).
 
@@ -18,4 +18,6 @@ Type: operation types.
 Avg. time(us): time the operation executes in micro seconds.
 
 
-Shape: shape of the inputs of the operation.
+Input Shape: shape of the input tensors of the operation.
+
+Attrs: operation attributes
