@@ -1,6 +1,6 @@
 # Data Format
 Cpu Nums, MPS, Batch Size, Host/device, Type, Avg. time (us), Input Shape, Attrs
-# Data Field Explanation
+# Data Fields
 Cpu Nums: number of cpu cores(with hyper threading).
 
 
